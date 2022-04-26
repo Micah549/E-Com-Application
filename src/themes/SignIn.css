@@ -1,0 +1,29 @@
+input{
+    border: solid 2px  rgb(82, 78, 78);
+    margin :10px;
+    color: rgb(219, 219, 219);
+}
+
+.email-content{
+    margin: auto auto;
+}
+
+.Form-Content{
+   
+        flex-wrap:wrap;  
+        background-color: rgb(241, 241, 241);
+        width: 720px;
+        margin: auto auto;
+        border-radius: 15px;
+        padding: 20px 10px;
+        color: rgb(17, 17, 17);
+        border: 3px solid rgb(114, 122, 131);
+        margin-top: 0;
+      
+}
+button{
+    padding: 10px;
+    background-color: rgb(122, 194, 122);
+    margin: 10px auto;
+    border: solid 2px green;
+}

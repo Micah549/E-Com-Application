@@ -1,0 +1,164 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+    display:block;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:rgb(255, 255, 255);
+    border:  rgb(214, 215, 216) ;
+    opacity: 0.9;
+    top: 0;
+    
+}
+.List{
+    width: 100%;
+    margin: auto auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: row;
+   
+    
+}
+.nav-Link{
+    display: flex;
+    flex-direction: row;
+text-decoration: none;
+margin-right: 20px;
+padding-right: 14px 16px;
+color: rgb(31, 29, 29);
+align-items: center;
+font-family: 'Abel', sans-serif;
+float: right;
+
+}
+
+.nav-Link:hover{
+    color:#fc0303cc;
+    background-color: rgb(245, 245, 245);
+    text-decoration-line: overline;
+    
+}
+
+.img-Logo{
+ float:none;
+  padding:px;
+  height: 40%;
+  width: 20%;
+  margin: auto auto;
+
+}
+.img-Logo:hover{
+    box-shadow: #0384fc;
+    
+}
+
+.game-Vector{
+    max-width: 100%;
+    float:right;
+    padding-top: 15px;
+    box-sizing: border-box;
+    display: contents;
+    margin: auto auto;
+    
+
+}
+
+.content-Vector{
+    max-width: 100%;
+    width: 100%;
+    display:table;
+    content: "";
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-family: 'Sansita Swashed', cursive;
+    margin:auto auto;
+    background-color: #0384fc;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.btn-journal{
+    color: #0384fc;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255) ;
+   
+}
+.btn-game{
+    color: #0384fc;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 240, 23) ;
+   
+}
+
+
+.btn-game:hover{
+color:white;
+background-color: #0384fc;
+border-radius: 15px;
+}
+
+.btn-journal:hover{
+color:white;
+background-color: #0384fc;
+border-radius: 15px;
+}
+
+.group:before, 
+.group::after{
+    display:"table";
+    content:"";
+
+}
+.row:after
+.group:after{
+clear: both;
+}
+.row
+.group{
+    zoom: 1;
+}
+
+
+strong{
+    color: yellow;
+    font-size: x-large;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Poiret One', cursive;
+}
+
+/* Media queries */
+ @media screen and (max-width:640px){
+     .nav-Link{
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        float: none;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 10px;
+     }
+     .List{
+         margin-top: 50px;
+         margin-left: 10px;
+         margin: 40px auto;
+         display: block;
+         
+        
+         
+     }
+ }

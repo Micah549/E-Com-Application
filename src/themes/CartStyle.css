@@ -1,0 +1,61 @@
+.h1-title{
+    color: black;
+    font-weight: 100;
+    font-size:  40px;
+     font-family: 'Lobster', cursive;
+     text-align: center;
+    }
+
+    button{
+        color: rgb(255, 255, 255);
+        border: 6px rgba(255, 255, 255, 0);
+        border-radius: 8px;
+        padding: 5px ;
+        background-color: rgb(255, 9, 9);
+        margin: 5px;
+    }
+
+    button:hover{
+        color: rgb(0, 0, 0);
+        border: 6px rgba(255, 255, 255, 0);
+        border-radius: 8px;
+        padding: 1px;
+        background-color: rgba(255, 17, 17, 0.603);
+    }
+
+    .center-table{
+    padding: 50px;
+    }
+    table{
+        margin-top: auto auto;
+        border: 1px solid rgb(0, 0, 0);
+        align-content: center;
+        grid-auto-rows: 2px;
+        row-gap: 2px;
+    }
+    
+    tr{
+padding: 10px;
+margin: 5px;
+
+    }
+
+    th{
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 900;
+        margin-right: 5px;
+        padding: 5px;
+        border:1px solid red;
+        background-color: black;
+        color: rgb(255, 255, 255);
+    
+    }
+    td{
+        text-align: left;
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+     padding: 5px 2px;
+     margin: 5px 5px;
+     border: 1px solid rgb(117, 117, 117);
+    }
+   
